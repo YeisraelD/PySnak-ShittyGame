@@ -10,7 +10,7 @@ class SNAKE:
             x_pos = int(block.x * cell_size)
             y_pos = int(block.y * cell_size)
             block_rect = pygame.Rect(x_pos, y_pos, cell_size, cell_size)
-            pygame.draw.rect(screen, (183, 191, 70), block_rect)
+            pygame.draw.rect(screen, (183, 191, 80), block_rect)
 
     def move_snake(self):
         if self.new_block == True:
